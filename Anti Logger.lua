@@ -106,10 +106,10 @@ oldType = hookfunction(type, newcclosure(function(value)
     return oldType(value)
 end))
 
-print("Anti Logger Active")
-
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "Notification";
     Text = "Anti Logger active";
     Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
     Duration = 16;
+
+print("Anti Logger Active")
